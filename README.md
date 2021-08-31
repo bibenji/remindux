@@ -46,3 +46,22 @@ Show a file at a specific commit
 ```
 git show d7ffe6a:demo.sh
 ```
+
+# REMINVIM
+### Reminder for Vim
+
+Copy one line :
+
+In visual mode : yy then p
+
+Copy multi lines :
+
+In visual mode : 2j or v2j then y (for yank) or x (for cut) then p
+
+Delete one line :
+
+In visual mode : dd
+
+Delete multi lines :
+
+In visual mode : 5dd
