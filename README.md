@@ -50,6 +50,17 @@ git show d7ffe6a:demo.sh
 # REMINVIM
 ### Reminder for Vim
 
+Copy, Cut And Paste :
+
+In visual mode :
+```asp
+v to select or V to select line (or ctrl-v for blocks?)
+d (or y to copy)
+P to paste before cursor or p to paste after
+```
+
+
+
 Copy one line :
 
 In visual mode : yy then p
