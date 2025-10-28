@@ -76,3 +76,21 @@ In visual mode : dd
 Delete multi lines :
 
 In visual mode : 5dd
+
+# AUDIO
+### Reminder for audio controllers
+
+libasound lit /proc/asound/cards ou /dev/snd/controlC*
+
+Pour monitorer les events de UDEV + KERNEL
+`udevadm monitor --subsystem-match=sound`
+
+```
+cat /proc/asound/cards
+cat /proc/asound/devices
+aplay -l
+arecord -l
+aconnect -l
+```
+
+checker /dev/snd pour voir ce qui est monté par le kernel
