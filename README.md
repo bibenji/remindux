@@ -13,7 +13,7 @@ sudo nmap -sTU -O IP-address-Here
 
 ```
 cat /proc/cpuinfo
-cat /proc/asound/cards
+cat /proc/asound/cardsAUDIO
 lspci -v|vv|vvv|n|nn|tv
 lshw
 sudo dmidecode
@@ -23,7 +23,7 @@ sudo dmidecode -t slot
 sudo dmidecode -t connector
 ```
 
-# REMINGIT
+# REMINDGIT
 ### Reminder for Git
 
 Git bisect : on démarre, on checke le commit et on répond par git bisect good or git bisect bad
@@ -47,7 +47,7 @@ Show a file at a specific commit
 git show d7ffe6a:demo.sh
 ```
 
-# REMINVIM
+# REMINDVIM
 ### Reminder for Vim
 
 Copy, Cut And Paste :
@@ -77,7 +77,7 @@ Delete multi lines :
 
 In visual mode : 5dd
 
-# AUDIO
+# REMINDIO
 ### Reminder for audio controllers
 
 libasound lit /proc/asound/cards ou /dev/snd/controlC*
